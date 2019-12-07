@@ -1,4 +1,4 @@
-# naijahack-essence
+# naija hackathon 2019
 # Team Essence
 ### Team members
 - Igho Powell oghenetega 
