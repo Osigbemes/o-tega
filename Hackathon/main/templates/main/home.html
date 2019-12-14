@@ -1,0 +1,13 @@
+
+
+{% extends 'main/base.html' %}
+{% block title %}Team Essence Project{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+  <div style="text-align:center">Hi {{ user.username }}! Welocme to <h1 style="color:blue">Workforce !!</h1></div>
+  <p><a href="{% url 'logout' %}">logout</a></p>
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}
